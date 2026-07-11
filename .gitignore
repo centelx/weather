@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+venv/
+ENV/
+
+# Data and Cache
+.cache.sqlite
+aws_datasets/
+data/
+logs/
+models/
+scratch/
+temp_grib_chunks/
+y_data/
+y_data_aws/
+y_data_f/
+*.grib2
+*.grib2.*.idx
+
+# Logs and Docs
+*.log
+*.csv
+*.docx

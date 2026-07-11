@@ -1,0 +1,6 @@
+pandas
+xgboost
+scikit-learn
+openmeteo_requests
+requests_cache
+retry_requests

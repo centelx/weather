@@ -1,0 +1,247 @@
+--- LISTA ZAKŁADÓW DENVER (ROI > 30%, Min Price > 30) ---
+
+Data typu: 2026-06-14
+Kiedy postawiono: 2026-06-13 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 70-71
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-15
+Kiedy postawiono: 2026-06-14 o 20:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 80-81
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-06-15
+Kiedy postawiono: 2026-06-13 o 13:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 80-81
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-06-16
+Kiedy postawiono: 2026-06-14 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-21
+Kiedy postawiono: 2026-06-19 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 88-89
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-22
+Kiedy postawiono: 2026-06-21 o 14:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 88-89
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-06-23
+Kiedy postawiono: 2026-06-22 o 24:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 84-85
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-23
+Kiedy postawiono: 2026-06-21 o 24:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 84-85
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-26
+Kiedy postawiono: 2026-06-25 o 14:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 86-87
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-27
+Kiedy postawiono: 2026-06-26 o 19:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 94-95
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-27
+Kiedy postawiono: 2026-06-25 o 19:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 94-95
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-28
+Kiedy postawiono: 2026-06-27 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 94-95
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-06-28
+Kiedy postawiono: 2026-06-26 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 94-95
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-06-29
+Kiedy postawiono: 2026-06-27 o 14:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 88-89
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-06-29
+Kiedy postawiono: 2026-06-27 o 21:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-06-30
+Kiedy postawiono: 2026-06-29 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-06-30
+Kiedy postawiono: 2026-06-28 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-01
+Kiedy postawiono: 2026-06-30 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-01
+Kiedy postawiono: 2026-06-29 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-02
+Kiedy postawiono: 2026-07-01 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 92-93
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-02
+Kiedy postawiono: 2026-06-30 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 92-93
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-03
+Kiedy postawiono: 2026-07-02 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-03
+Kiedy postawiono: 2026-07-01 o 13:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 92-93
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-04
+Kiedy postawiono: 2026-07-03 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 88-89
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-04
+Kiedy postawiono: 2026-07-03 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-04
+Kiedy postawiono: 2026-07-02 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 88-89
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-04
+Kiedy postawiono: 2026-07-02 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 90-91
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-05
+Kiedy postawiono: 2026-07-04 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 92-93
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-05
+Kiedy postawiono: 2026-07-04 o 20:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 94-95
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-05
+Kiedy postawiono: 2026-07-03 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 92-93
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-05
+Kiedy postawiono: 2026-07-03 o 13:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 94-95
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-06
+Kiedy postawiono: 2026-07-05 o 10:00 EDT
+Wyprzedzenie: Dzień przed (Day 1)
+Zasięg temperatury (Fahrenheit): 96-97
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-06
+Kiedy postawiono: 2026-07-04 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 96-97
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
+Data typu: 2026-07-07
+Kiedy postawiono: 2026-07-05 o 14:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 94-95
+Strona zakładu: NO
+Wynik: Wygrana
+--------------------------------------------------
+Data typu: 2026-07-08
+Kiedy postawiono: 2026-07-06 o 10:00 EDT
+Wyprzedzenie: Dwa dni przed (Day 2)
+Zasięg temperatury (Fahrenheit): 92-93
+Strona zakładu: NO
+Wynik: Przegrana
+--------------------------------------------------
