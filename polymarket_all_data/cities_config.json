@@ -3,16 +3,16 @@
     "max_slug": "highest-temperature-in-miami-on-{month}-{day}-{year}",
     "min_slug": "lowest-temperature-in-miami-on-{month}-{day}-{year}",
     "timezone": "America/New_York",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "25.796150",
+    "lon": "-80.286791",
+    "model": "USA"
   },
   "losangeles": {
     "max_slug": "highest-temperature-in-los-angeles-on-{month}-{day}-{year}",
     "timezone": "America/Los_Angeles",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "33.941919",
+    "lon": "-118.409988",
+    "model": "USA"
   },
   "wellington": {
     "max_slug": "highest-temperature-in-wellington-on-{month}-{day}-{year}",
@@ -120,9 +120,9 @@
   "dallas": {
     "max_slug": "highest-temperature-in-dallas-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "32.822367",
+    "lon": "-96.833156",
+    "model": "USA"
   },
   "shenzhen": {
     "max_slug": "highest-temperature-in-shenzhen-on-{month}-{day}-{year}",
@@ -170,9 +170,9 @@
   "chicago": {
     "max_slug": "highest-temperature-in-chicago-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "41.978404",
+    "lon": "-87.908376",
+    "model": "USA"
   },
   "chongqing": {
     "max_slug": "highest-temperature-in-chongqing-on-{month}-{day}-{year}",
@@ -226,9 +226,9 @@
   "toronto": {
     "max_slug": "highest-temperature-in-toronto-on-{month}-{day}-{year}",
     "timezone": "America/Toronto",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "43.681422",
+    "lon": "-79.633988",
+    "model": "USA"
   },
   "wuhan": {
     "max_slug": "highest-temperature-in-wuhan-on-{month}-{day}-{year}",
@@ -248,16 +248,16 @@
     "max_slug": "highest-temperature-in-nyc-on-{month}-{day}-{year}",
     "min_slug": "lowest-temperature-in-nyc-on-{month}-{day}-{year}",
     "timezone": "America/New_York",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "40.775824",
+    "lon": "-73.875524",
+    "model": "USA"
   },
   "austin": {
     "max_slug": "highest-temperature-in-austin-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "30.196825",
+    "lon": "-97.665629",
+    "model": "USA"
   },
   "manila": {
     "max_slug": "highest-temperature-in-manila-on-{month}-{day}-{year}",
@@ -276,16 +276,16 @@
   "seattle": {
     "max_slug": "highest-temperature-in-seattle-on-{month}-{day}-{year}",
     "timezone": "America/Los_Angeles",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "47.452602",
+    "lon": "122.309579",
+    "model": "USA"
   },
   "san-francisco": {
     "max_slug": "highest-temperature-in-san-francisco-on-{month}-{day}-{year}",
     "timezone": "America/Los_Angeles",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "37.622953",
+    "lon": "-122.389108",
+    "model": "USA"
   },
   "moscow": {
     "max_slug": "highest-temperature-in-moscow-on-{month}-{day}-{year}",
@@ -318,9 +318,9 @@
   "denver": {
     "max_slug": "highest-temperature-in-denver-on-{month}-{day}-{year}",
     "timezone": "America/Denver",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "39.707840",
+    "lon": "-104.756536",
+    "model": "USA"
   },
   "sao-paulo": {
     "max_slug": "highest-temperature-in-sao-paulo-on-{month}-{day}-{year}",
@@ -339,15 +339,15 @@
   "atlanta": {
     "max_slug": "highest-temperature-in-atlanta-on-{month}-{day}-{year}",
     "timezone": "America/New_York",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "33.637038",
+    "lon": "-84.427484",
+    "model": "USA"
   },
   "houston": {
     "max_slug": "highest-temperature-in-houston-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
-    "lat": "",
-    "lon": "",
-    "model": ""
+    "lat": "29.645255",
+    "lon": "-95.277308",
+    "model": "USA"
   }
 }
