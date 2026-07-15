@@ -17,7 +17,7 @@ jobs:
       - name: Odczyt miast z cities_config.json
         id: set-cities
         run: |
-          CITIES=$(jq -c 'keys' polymarket_all_data/cities_config.json)
+          CITIES=$(jq -c 'to_entries | map(select(.value.model != "" and .value.lat != "" and .value.lon != "")) | map(.key)' polymarket_all_data/cities_config.json)
           echo "cities=${CITIES}" >> $GITHUB_OUTPUT
 
   fetch-data:
