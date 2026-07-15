@@ -46,6 +46,7 @@ jobs:
         run: python data_aws/fetch_aws_single_city.py --city ${{ matrix.city }}
         
       - name: Upload Artifact (CSV)
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: aws-data-${{ matrix.city }}
@@ -54,6 +55,7 @@ jobs:
 
   commit-data:
     needs: fetch-data
+    if: always()
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
