@@ -43,7 +43,7 @@ jobs:
           pip install ecmwflibs cfgrib xarray # w razie gdyby ich nie było w requirements
           
       - name: Pobieranie danych AWS dla miasta ${{ matrix.city }}
-        run: python data_aws/fetch_aws_single_city.py --city ${{ matrix.city }}
+        run: python -u data_aws/fetch_aws_single_city.py --city ${{ matrix.city }}
         
       - name: Upload Artifact (CSV)
         if: always()
