@@ -1,0 +1,15 @@
+--- HISTORIA ZAŁOŻONYCH ZAKŁADÓW ---
+
+Data: 2026-06-15 | Typ: MAX | Koszyk: 72-73 | Faktyczna Temp: 71.0 | Strona: NIE | Prawd. Rynku: 60.0% | Nasz Edge: 41.7% | Wynik: WYGRANY | Zysk: $38.00
+Data: 2026-06-20 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 70.0 | Strona: NIE | Prawd. Rynku: 67.5% | Nasz Edge: 33.6% | Wynik: PRZEGRANY | Zysk: $-67.50
+Data: 2026-06-21 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 70.0 | Strona: NIE | Prawd. Rynku: 55.0% | Nasz Edge: 48.3% | Wynik: PRZEGRANY | Zysk: $-55.00
+Data: 2026-06-22 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 71.0 | Strona: NIE | Prawd. Rynku: 38.0% | Nasz Edge: 78.9% | Wynik: PRZEGRANY | Zysk: $-38.00
+Data: 2026-06-23 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 71.0 | Strona: NIE | Prawd. Rynku: 44.0% | Nasz Edge: 30.6% | Wynik: PRZEGRANY | Zysk: $-44.00
+Data: 2026-06-25 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 72.0 | Strona: NIE | Prawd. Rynku: 47.5% | Nasz Edge: 40.3% | Wynik: WYGRANY | Zysk: $50.50
+Data: 2026-06-28 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 71.0 | Strona: NIE | Prawd. Rynku: 56.5% | Nasz Edge: 31.4% | Wynik: PRZEGRANY | Zysk: $-56.50
+Data: 2026-06-29 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 72.0 | Strona: NIE | Prawd. Rynku: 63.5% | Nasz Edge: 31.1% | Wynik: WYGRANY | Zysk: $34.50
+Data: 2026-07-01 | Typ: MAX | Koszyk: 70-71 | Faktyczna Temp: 70.0 | Strona: NIE | Prawd. Rynku: 66.0% | Nasz Edge: 30.4% | Wynik: PRZEGRANY | Zysk: $-66.00
+Data: 2026-07-03 | Typ: MAX | Koszyk: 72-73 | Faktyczna Temp: 72.0 | Strona: NIE | Prawd. Rynku: 51.5% | Nasz Edge: 76.3% | Wynik: PRZEGRANY | Zysk: $-51.50
+Data: 2026-07-04 | Typ: MAX | Koszyk: 72-73 | Faktyczna Temp: 75.0 | Strona: NIE | Prawd. Rynku: 50.0% | Nasz Edge: 73.6% | Wynik: WYGRANY | Zysk: $48.00
+Data: 2026-07-05 | Typ: MAX | Koszyk: 74-75 | Faktyczna Temp: 75.0 | Strona: NIE | Prawd. Rynku: 54.5% | Nasz Edge: 63.5% | Wynik: PRZEGRANY | Zysk: $-54.50
+Data: 2026-07-08 | Typ: MAX | Koszyk: 76-77 | Faktyczna Temp: 74.0 | Strona: NIE | Prawd. Rynku: 51.5% | Nasz Edge: 51.3% | Wynik: WYGRANY | Zysk: $46.50

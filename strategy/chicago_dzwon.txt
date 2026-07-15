@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA CHICAGO ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MAX, Dzwon 0.80
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\data\real_prices\real_polymarket_prices_chicago_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 3
+Win Rate:       66.7%
+Suma stawek:    $156.50
+Zysk netto:     $39.50
+Końcowy portfel:$1039.50
+ROI:            25.24%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.

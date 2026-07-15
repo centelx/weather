@@ -5,7 +5,7 @@ import numpy as np
 import joblib
 from scipy.stats import norm
 
-def get_predictions(city, base_path, config, use_fahrenheit):
+def get_predictions(city, base_path, config, use_fahrenheit, std_multiplier=1.0):
     data_path = os.path.join(base_path, 'data', f"dataset_{city}.csv")
     df = pd.read_csv(data_path)
     df['Date'] = pd.to_datetime(df['Date'])
@@ -82,6 +82,9 @@ def get_predictions(city, base_path, config, use_fahrenheit):
         preds_min = preds_min * 1.8 + 32
         std_max = std_max * 1.8
         std_min = std_min * 1.8
+        
+    std_max = std_max * std_multiplier
+    std_min = std_min * std_multiplier
     
     df_val[f'Pred_Max_{config}'] = preds_max
     df_val[f'Std_Max_{config}'] = std_max
@@ -137,16 +140,18 @@ def run():
     parser = argparse.ArgumentParser()
     parser.add_argument("--city", default="taipei")
     parser.add_argument("-f", "--fahrenheit", action="store_true")
+    parser.add_argument("--std_multiplier", type=float, default=1.0, help="Mnoznik dla odchylenia standardowego (np. 0.8 dla wyzszego dzwonu)")
     args = parser.parse_args()
     
     city = args.city
     use_f = args.fahrenheit
+    std_multiplier = args.std_multiplier
     unit_str = "F" if use_f else "C"
     
     base_path = r'C:\Users\barto\Desktop\polymarket\weather'
     
-    df_day1 = get_predictions(city, base_path, 'day1_1200', use_f)
-    df_day2 = get_predictions(city, base_path, 'day2_1200', use_f)
+    df_day1 = get_predictions(city, base_path, 'day1_1200', use_f, std_multiplier)
+    df_day2 = get_predictions(city, base_path, 'day2_1200', use_f, std_multiplier)
     
     df_merged = pd.merge(df_day1, df_day2, on='Date')
     df_merged = df_merged[df_merged['Date'] <= '2026-07-08']

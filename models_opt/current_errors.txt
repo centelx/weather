@@ -1,0 +1,9 @@
+--- AKTUALNE NAJLEPSZE WYNIKI BŁĘDÓW (MAE) ---
+
+MIAMI
+- MAX: 0.60 (SVR, podzbiór N=24 cech)
+- MIN: 0.83 (SVR, podzbiór N=12 cech)
+
+LOS ANGELES (po poszerzeniu bazy o lata 2022-2024)
+- MAX: 0.69 (SVR, podzbiór N=12 cech)
+- MIN: 0.63 (SVR, podzbiór N=30 cech) oraz 0.60 (Klasyczny XGBoost)

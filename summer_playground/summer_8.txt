@@ -1,0 +1,5 @@
+WYNIKI - TEST ROBUST SCALER + XGBoost (MIAMI Maj-Paü)
+-----------------------------------------------------------
+MIAMI (Trained: May-Oct, Test: May-Oct 2025):
+- MAX (XGBoost N=ALL): miami_max_robust_xgb: MAE 0.7050, RMSE 0.9152
+- MIN (XGBoost N=ALL): miami_min_robust_xgb: MAE 0.7835, RMSE 1.0076

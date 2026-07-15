@@ -1,0 +1,7 @@
+WYNIKI OPTYMALIZACJI: METODA ANALOGOW (KNN)
+============================================================
+
+1. MIAMI MAX (SVR, StandardScaler): MAE = 0.6714
+2. MIAMI MIN (XGBoost, RobustScaler): MAE = 0.7941
+3. LA MAX (SVR, RobustScaler): MAE = 0.6531
+4. LA MIN (XGBoost, RobustScaler): MAE = 0.5798

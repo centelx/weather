@@ -1,0 +1,12 @@
+WYNIKI - PODEJŒCIE 2 (Model wyspecjalizowany PURE SUMMER)
+-----------------------------------------------------------
+Zbiór testowy: TYLKO 01.06.2025 - 30.09.2025
+Zbiór treningowy: Lato 2021, 2022, 2023, 2024, oraz czerwiec-lipiec 2026
+
+MIAMI:
+- MAX (SVR N=24): miami_model_max_summer_pure: MAE 0.7114, RMSE 0.9145 (Train: 527, Val: 122)
+- MIN (SVR N=12): miami_model_min_summer_pure: MAE 0.8331, RMSE 1.0182 (Train: 527, Val: 122)
+
+LOS ANGELES:
+- MAX (SVR N=12): losangeles_model_max_summer_pure: MAE 0.6729, RMSE 0.9208 (Train: 527, Val: 122)
+- MIN (XGBoost N=ALL): losangeles_model_min_summer_pure: MAE 0.5869, RMSE 0.7309 (Train: 527, Val: 122)

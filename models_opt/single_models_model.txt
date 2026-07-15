@@ -1,0 +1,23 @@
+--- BŁĘDY POJEDYNCZYCH MODELI (TYLKO GFS / TYLKO HRRR) ---
+
+==========================================
+MIASTO: MIAMI
+==========================================
+--- ŹRÓDŁO: GFS ---
+  MAX -> MAE: 0.7520 | RMSE: 1.0275
+  MIN -> MAE: 0.8177 | RMSE: 1.0192
+
+--- ŹRÓDŁO: HRRR ---
+  MAX -> MAE: 0.6833 | RMSE: 0.9056
+  MIN -> MAE: 0.9338 | RMSE: 1.1831
+
+==========================================
+MIASTO: LOSANGELES
+==========================================
+--- ŹRÓDŁO: GFS ---
+  MAX -> MAE: 1.0250 | RMSE: 1.3604
+  MIN -> MAE: 0.7261 | RMSE: 0.8996
+
+--- ŹRÓDŁO: HRRR ---
+  MAX -> MAE: 1.0415 | RMSE: 1.3187
+  MIN -> MAE: 0.7131 | RMSE: 0.9164

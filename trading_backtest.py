@@ -30,8 +30,8 @@ def generate_actuals_from_dataset(city, base_path, use_fahrenheit):
     actual_min = df['Min_Temp']
     
     if use_fahrenheit:
-        actual_max = actual_max * 1.8 + 32
-        actual_min = actual_min * 1.8 + 32
+        actual_max = np.floor(actual_max * 1.8 + 32 + 0.5)
+        actual_min = np.floor(actual_min * 1.8 + 32 + 0.5)
         
     return pd.DataFrame({
         'target_date': df['target_date'],
@@ -48,12 +48,12 @@ def main():
     parser.add_argument("--min_price", type=float, default=0.30, help="Minimalna cena")
     parser.add_argument("--max_price", type=float, default=0.99, help="Maksymalna cena")
     parser.add_argument("--polymarket_csv", type=str, default="", help="Ścieżka do prawdziwych danych rynkowych z API/Grafu")
-    parser.add_argument("--type", choices=['ALL', 'MAX', 'MIN'], default='ALL', help="Filtruj wg typu rynku")
+    parser.add_argument("--type", type=str, default="ALL", choices=["ALL", "MAX", "MIN"], help="Filtruj wg typu rynku")
+    parser.add_argument("--side", type=str, default="ALL", choices=["ALL", "YES", "NO"], help="Strona zakładu")
     args = parser.parse_args()
     
     base_path = r'C:\Users\barto\Desktop\polymarket\weather'
-    preds_file = os.path.join(base_path, f'predictions_history_{args.city}.csv')
-    
+    preds_file = os.path.join(base_path, 'data', 'predictions_history', f'predictions_history_{args.city}.csv')
     if not os.path.exists(preds_file):
         print(f"Błąd: Brak pliku z predykcjami {preds_file}. Odpal najpierw export_history.py")
         return
@@ -92,7 +92,8 @@ def main():
         bet_size=args.bet,
         fee_pct=0.02,  # 2% prowizji z zysku na Polymarket
         min_price=args.min_price,
-        max_price=args.max_price
+        max_price=args.max_price,
+        side=args.side
     )
     
     engine.run()

@@ -1,0 +1,44 @@
+--- WYNIKI BACKTESTÓW SVR (DZWON 0.80) - TYLKO ZAKŁADY 'NIE' ---
+
+============================
+MIASTO: MIAMI
+============================
+--- EDGE > 10% ---
+Zakłady: 27
+Win Rate: 55.6%
+Zysk Netto: $-43.65
+ROI: -2.88%
+
+--- EDGE > 20% ---
+Zakłady: 15
+Win Rate: 60.0%
+Zysk Netto: $58.35
+ROI: 7.08%
+
+--- EDGE > 30% ---
+Zakłady: 5
+Win Rate: 80.0%
+Zysk Netto: $109.35
+ROI: 38.69%
+
+============================
+MIASTO: LOSANGELES
+============================
+--- EDGE > 10% ---
+Zakłady: 21
+Win Rate: 38.1%
+Zysk Netto: $-332.50
+ROI: -29.78%
+
+--- EDGE > 20% ---
+Zakłady: 12
+Win Rate: 33.3%
+Zysk Netto: $-198.00
+ROI: -33.56%
+
+--- EDGE > 30% ---
+Zakłady: 11
+Win Rate: 36.4%
+Zysk Netto: $-143.00
+ROI: -26.73%
+

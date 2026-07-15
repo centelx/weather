@@ -1,0 +1,74 @@
+--- FINA£OWE BACKTESTY QUANTILE: MIAMI MAX (NO) ---
+
+PARAMETRY: ROI > 10.0%, Cena > 0.1
+Iloœæ zak³adów: 22
+Win Rate:       63.6%
+Suma stawek:    $1377.65
+Zysk netto:     $-5.65
+Koñcowy portfel:$994.35
+ROI:            -0.41%
+----------------------------------------
+PARAMETRY: ROI > 10.0%, Cena > 0.2
+Iloœæ zak³adów: 22
+Win Rate:       63.6%
+Suma stawek:    $1377.65
+Zysk netto:     $-5.65
+Koñcowy portfel:$994.35
+ROI:            -0.41%
+----------------------------------------
+PARAMETRY: ROI > 10.0%, Cena > 0.3
+Iloœæ zak³adów: 22
+Win Rate:       63.6%
+Suma stawek:    $1377.65
+Zysk netto:     $-5.65
+Koñcowy portfel:$994.35
+ROI:            -0.41%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.1
+Iloœæ zak³adów: 10
+Win Rate:       70.0%
+Suma stawek:    $567.65
+Zysk netto:     $118.35
+Koñcowy portfel:$1118.35
+ROI:            20.85%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.2
+Iloœæ zak³adów: 10
+Win Rate:       70.0%
+Suma stawek:    $567.65
+Zysk netto:     $118.35
+Koñcowy portfel:$1118.35
+ROI:            20.85%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.3
+Iloœæ zak³adów: 10
+Win Rate:       70.0%
+Suma stawek:    $567.65
+Zysk netto:     $118.35
+Koñcowy portfel:$1118.35
+ROI:            20.85%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.1
+Iloœæ zak³adów: 9
+Win Rate:       77.8%
+Suma stawek:    $522.15
+Zysk netto:     $163.85
+Koñcowy portfel:$1163.85
+ROI:            31.38%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.2
+Iloœæ zak³adów: 9
+Win Rate:       77.8%
+Suma stawek:    $522.15
+Zysk netto:     $163.85
+Koñcowy portfel:$1163.85
+ROI:            31.38%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.3
+Iloœæ zak³adów: 9
+Win Rate:       77.8%
+Suma stawek:    $522.15
+Zysk netto:     $163.85
+Koñcowy portfel:$1163.85
+ROI:            31.38%
+----------------------------------------

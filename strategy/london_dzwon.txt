@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA LONDON ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MAX, Dzwon 0.80
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\data\real_prices\real_polymarket_prices_london_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 16
+Win Rate:       43.8%
+Suma stawek:    $897.50
+Zysk netto:     $-211.50
+Końcowy portfel:$788.50
+ROI:            -23.57%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.

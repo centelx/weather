@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA TAIPEI ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MAX, Dzwon 0.80
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\data\real_prices\real_polymarket_prices_taipei_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 4
+Win Rate:       50.0%
+Suma stawek:    $220.75
+Zysk netto:     $-24.75
+Końcowy portfel:$975.25
+ROI:            -11.21%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.

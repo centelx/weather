@@ -1,0 +1,9 @@
+WYNIKI - TEST ROBUST SCALER (NA NAJLEPSZYCH ARCHITEKTURACH)
+-----------------------------------------------------------
+MIAMI (Trained: May-Oct, Test: May-Oct 2025):
+- MAX (SVR N=24): miami_max_robust: MAE 0.6553, RMSE 0.8596
+- MIN (SVR N=12): miami_min_robust: MAE 0.7892, RMSE 1.0253
+
+LOS ANGELES (Trained: All Data, Test: Jun-Sep 2025 + Jun-Jul 2026):
+- MAX (SVR N=12): la_max_robust: MAE 0.6768, RMSE 0.8907
+- MIN (XGBoost N=ALL): la_min_robust: MAE 0.5492, RMSE 0.6870

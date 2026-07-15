@@ -7,8 +7,8 @@ def main():
     lat, lon = 33.941872, -118.408849
     timezone = "America/Los_Angeles"
     
-    start_date = "2022-01-01"
-    end_date = "2026-07-09"
+    start_date = "2021-04-01"
+    end_date = "2021-12-31"
     
     crawler = HRRRCrawler(city, lat, lon, timezone)
     dates_to_fetch = pd.date_range(start=start_date, end=end_date)
@@ -46,6 +46,15 @@ def main():
             print(f"[ZAPISANO] Sukces dla {date_str}. Dane bezpieczne na dysku.")
         else:
             print(f"[BRAK DANYCH] Nie znaleziono pełnych danych HRRR dla {date_str} na S3.")
+
+    if os.path.exists(out_file):
+        df_final = pd.read_csv(out_file)
+        if 'Date' in df_final.columns:
+            df_final['Date'] = pd.to_datetime(df_final['Date'])
+            df_final = df_final.sort_values('Date').reset_index(drop=True)
+            df_final['Date'] = df_final['Date'].dt.strftime('%Y-%m-%d')
+            df_final.to_csv(out_file, index=False)
+            print("Zakończono pobieranie. Plik został posortowany chronologicznie.")
 
 if __name__ == "__main__":
     main()

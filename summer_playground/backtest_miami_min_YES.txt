@@ -1,0 +1,64 @@
+--- FINA£OWE BACKTESTY QUANTILE: MIAMI MIN (YES) ---
+
+PARAMETRY: ROI > 10.0%, Cena > 0.1
+Iloœæ zak³adów: 18
+Win Rate:       11.1%
+Suma stawek:    $427.45
+Zysk netto:     $-231.45
+Koñcowy portfel:$768.55
+ROI:            -54.15%
+----------------------------------------
+PARAMETRY: ROI > 10.0%, Cena > 0.2
+Iloœæ zak³adów: 9
+Win Rate:       0.0%
+Suma stawek:    $299.50
+Zysk netto:     $-299.50
+Koñcowy portfel:$700.50
+ROI:            -100.00%
+----------------------------------------
+PARAMETRY: ROI > 10.0%, Cena > 0.3
+Iloœæ zak³adów: 4
+Win Rate:       0.0%
+Suma stawek:    $168.50
+Zysk netto:     $-168.50
+Koñcowy portfel:$831.50
+ROI:            -100.00%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.1
+Iloœæ zak³adów: 12
+Win Rate:       16.7%
+Suma stawek:    $219.95
+Zysk netto:     $-23.95
+Koñcowy portfel:$976.05
+ROI:            -10.89%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.2
+Iloœæ zak³adów: 4
+Win Rate:       0.0%
+Suma stawek:    $103.50
+Zysk netto:     $-103.50
+Koñcowy portfel:$896.50
+ROI:            -100.00%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.3
+
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.1
+Iloœæ zak³adów: 11
+Win Rate:       18.2%
+Suma stawek:    $191.95
+Zysk netto:     $4.05
+Koñcowy portfel:$1004.05
+ROI:            2.11%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.2
+Iloœæ zak³adów: 3
+Win Rate:       0.0%
+Suma stawek:    $75.50
+Zysk netto:     $-75.50
+Koñcowy portfel:$924.50
+ROI:            -100.00%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.3
+
+----------------------------------------

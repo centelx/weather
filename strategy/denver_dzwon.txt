@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA DENVER ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MAX, Dzwon 0.80
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\data\real_prices\real_polymarket_prices_denver_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 20
+Win Rate:       75.0%
+Suma stawek:    $1178.20
+Zysk netto:     $291.80
+Końcowy portfel:$1291.80
+ROI:            24.77%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.

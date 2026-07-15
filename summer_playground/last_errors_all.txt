@@ -1,0 +1,39 @@
+WYNIKI OPTYMALIZACJI HISTORII BLEDOW (1 do 7 dni)
+============================================================
+
+1. MIAMI MAX (SVR + StandardScaler, May-Oct)
+   1 dni w historii: MAE = 0.6655
+   2 dni w historii: MAE = 0.6671
+   3 dni w historii: MAE = 0.6796
+   4 dni w historii: MAE = 0.6861
+   5 dni w historii: MAE = 0.6965
+   6 dni w historii: MAE = 0.6944
+   7 dni w historii: MAE = 0.6996
+
+2. MIAMI MIN (XGBoost + RobustScaler, May-Oct)
+   1 dni w historii: MAE = 0.8000
+   2 dni w historii: MAE = 0.8025
+   3 dni w historii: MAE = 0.8025
+   4 dni w historii: MAE = 0.8044
+   5 dni w historii: MAE = 0.8060
+   6 dni w historii: MAE = 0.8046
+   7 dni w historii: MAE = 0.8046
+
+3. LA MAX (SVR + RobustScaler, All Data)
+   1 dni w historii: MAE = 0.6703
+   2 dni w historii: MAE = 0.6764
+   3 dni w historii: MAE = 0.6825
+   4 dni w historii: MAE = 0.6873
+   5 dni w historii: MAE = 0.6810
+   6 dni w historii: MAE = 0.6804
+   7 dni w historii: MAE = 0.6896
+
+4. LA MIN (XGBoost + RobustScaler, All Data)
+   1 dni w historii: MAE = 0.5741
+   2 dni w historii: MAE = 0.5711
+   3 dni w historii: MAE = 0.5850
+   4 dni w historii: MAE = 0.5735
+   5 dni w historii: MAE = 0.5833
+   6 dni w historii: MAE = 0.6036
+   7 dni w historii: MAE = 0.5973
+

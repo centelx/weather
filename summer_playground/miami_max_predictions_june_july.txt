@@ -1,0 +1,103 @@
+--- PREDYKCJE MIAMI MAX (14 czerwca - 8 lipca 2026) ---
+Predykcje wygenerowane po runie API z godziny 12:00 dnia poprzedniego.
+
+Data celu: 2026-06-14 (przewidziano: 2026-06-13 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 40.6%)
+ -> Sąsiednie koszyki: 88-89 °F (38.5%), 92-93 °F (10.7%)
+----------------------------------------
+Data celu: 2026-06-15 (przewidziano: 2026-06-14 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 45.3%)
+ -> Sąsiednie koszyki: 92-93 °F (31.0%), 88-89 °F (16.7%)
+----------------------------------------
+Data celu: 2026-06-16 (przewidziano: 2026-06-15 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 42.8%)
+ -> Sąsiednie koszyki: 90-91 °F (35.7%), 94-95 °F (12.8%)
+----------------------------------------
+Data celu: 2026-06-17 (przewidziano: 2026-06-16 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 46.5%)
+ -> Sąsiednie koszyki: 90-91 °F (27.6%), 94-95 °F (19.7%)
+----------------------------------------
+Data celu: 2026-06-18 (przewidziano: 2026-06-17 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 46.9%)
+ -> Sąsiednie koszyki: 88-89 °F (23.8%), 92-93 °F (23.2%)
+----------------------------------------
+Data celu: 2026-06-19 (przewidziano: 2026-06-18 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 42.3%)
+ -> Sąsiednie koszyki: 92-93 °F (36.3%), 88-89 °F (12.3%)
+----------------------------------------
+Data celu: 2026-06-20 (przewidziano: 2026-06-19 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 46.3%)
+ -> Sąsiednie koszyki: 92-93 °F (27.8%), 88-89 °F (19.5%)
+----------------------------------------
+Data celu: 2026-06-21 (przewidziano: 2026-06-20 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 45.2%)
+ -> Sąsiednie koszyki: 92-93 °F (31.4%), 88-89 °F (16.3%)
+----------------------------------------
+Data celu: 2026-06-22 (przewidziano: 2026-06-21 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 46.9%)
+ -> Sąsiednie koszyki: 94-95 °F (24.7%), 90-91 °F (22.4%)
+----------------------------------------
+Data celu: 2026-06-23 (przewidziano: 2026-06-22 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 46.5%)
+ -> Sąsiednie koszyki: 90-91 °F (27.4%), 94-95 °F (19.9%)
+----------------------------------------
+Data celu: 2026-06-24 (przewidziano: 2026-06-23 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 46.8%)
+ -> Sąsiednie koszyki: 92-93 °F (26.6%), 88-89 °F (20.6%)
+----------------------------------------
+Data celu: 2026-06-25 (przewidziano: 2026-06-24 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 45.6%)
+ -> Sąsiednie koszyki: 88-89 °F (30.4%), 92-93 °F (17.2%)
+----------------------------------------
+Data celu: 2026-06-26 (przewidziano: 2026-06-25 po runie 1200)
+ -> Główna predykcja: 88-89 °F (Szansa: 45.2%)
+ -> Sąsiednie koszyki: 90-91 °F (31.3%), 86-87 °F (16.4%)
+----------------------------------------
+Data celu: 2026-06-27 (przewidziano: 2026-06-26 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 39.7%)
+ -> Sąsiednie koszyki: 90-91 °F (39.3%), 94-95 °F (10.1%)
+----------------------------------------
+Data celu: 2026-06-28 (przewidziano: 2026-06-27 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 46.8%)
+ -> Sąsiednie koszyki: 88-89 °F (26.3%), 92-93 °F (20.8%)
+----------------------------------------
+Data celu: 2026-06-29 (przewidziano: 2026-06-28 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 41.6%)
+ -> Sąsiednie koszyki: 90-91 °F (37.3%), 94-95 °F (11.6%)
+----------------------------------------
+Data celu: 2026-06-30 (przewidziano: 2026-06-29 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 45.6%)
+ -> Sąsiednie koszyki: 90-91 °F (30.4%), 94-95 °F (17.1%)
+----------------------------------------
+Data celu: 2026-07-01 (przewidziano: 2026-06-30 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 46.8%)
+ -> Sąsiednie koszyki: 90-91 °F (25.2%), 94-95 °F (21.9%)
+----------------------------------------
+Data celu: 2026-07-02 (przewidziano: 2026-07-01 po runie 1200)
+ -> Główna predykcja: 88-89 °F (Szansa: 42.9%)
+ -> Sąsiednie koszyki: 90-91 °F (35.7%), 86-87 °F (12.8%)
+----------------------------------------
+Data celu: 2026-07-03 (przewidziano: 2026-07-02 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 39.8%)
+ -> Sąsiednie koszyki: 88-89 °F (39.5%), 92-93 °F (9.9%)
+----------------------------------------
+Data celu: 2026-07-04 (przewidziano: 2026-07-03 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 40.3%)
+ -> Sąsiednie koszyki: 90-91 °F (38.9%), 94-95 °F (10.3%)
+----------------------------------------
+Data celu: 2026-07-05 (przewidziano: 2026-07-04 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 44.4%)
+ -> Sąsiednie koszyki: 90-91 °F (33.2%), 94-95 °F (14.8%)
+----------------------------------------
+Data celu: 2026-07-06 (przewidziano: 2026-07-05 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 41.3%)
+ -> Sąsiednie koszyki: 92-93 °F (37.8%), 88-89 °F (11.2%)
+----------------------------------------
+Data celu: 2026-07-07 (przewidziano: 2026-07-06 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 40.2%)
+ -> Sąsiednie koszyki: 90-91 °F (39.0%), 94-95 °F (10.2%)
+----------------------------------------
+Data celu: 2026-07-08 (przewidziano: 2026-07-07 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 46.6%)
+ -> Sąsiednie koszyki: 90-91 °F (28.1%), 94-95 °F (19.1%)
+----------------------------------------

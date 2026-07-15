@@ -1,0 +1,158 @@
+--- EKSPERYMENT: MNOŻNIKI DZWONA DLA LOS ANGELES (SVR, SIDE: ALL) ---
+
+========================================
+MNOŻNIK DZWONA: 0.70
+========================================
+--- EDGE > 10% ---
+Zakłady: 20 | Win Rate: 45.0% | Zysk Netto: $-64.80 | ROI: -6.84%
+
+--- EDGE > 20% ---
+Zakłady: 14 | Win Rate: 42.9% | Zysk Netto: $-63.80 | ROI: -9.79%
+
+--- EDGE > 30% ---
+Zakłady: 9 | Win Rate: 33.3% | Zysk Netto: $-130.80 | ROI: -30.79%
+
+========================================
+MNOŻNIK DZWONA: 0.75
+========================================
+--- EDGE > 10% ---
+Zakłady: 21 | Win Rate: 38.1% | Zysk Netto: $-255.80 | ROI: -24.60%
+
+--- EDGE > 20% ---
+Zakłady: 13 | Win Rate: 38.5% | Zysk Netto: $-130.30 | ROI: -21.01%
+
+--- EDGE > 30% ---
+Zakłady: 10 | Win Rate: 30.0% | Zysk Netto: $-194.50 | ROI: -39.82%
+
+========================================
+MNOŻNIK DZWONA: 0.80
+========================================
+--- EDGE > 10% ---
+Zakłady: 23 | Win Rate: 43.5% | Zysk Netto: $-198.30 | ROI: -16.83%
+
+--- EDGE > 20% ---
+Zakłady: 13 | Win Rate: 38.5% | Zysk Netto: $-130.30 | ROI: -21.01%
+
+--- EDGE > 30% ---
+Zakłady: 11 | Win Rate: 36.4% | Zysk Netto: $-143.00 | ROI: -26.73%
+
+========================================
+MNOŻNIK DZWONA: 0.85
+========================================
+--- EDGE > 10% ---
+Zakłady: 24 | Win Rate: 41.7% | Zysk Netto: $-287.30 | ROI: -22.67%
+
+--- EDGE > 20% ---
+Zakłady: 13 | Win Rate: 38.5% | Zysk Netto: $-153.50 | ROI: -23.85%
+
+--- EDGE > 30% ---
+Zakłady: 11 | Win Rate: 36.4% | Zysk Netto: $-143.00 | ROI: -26.73%
+
+========================================
+MNOŻNIK DZWONA: 0.90
+========================================
+--- EDGE > 10% ---
+Zakłady: 24 | Win Rate: 41.7% | Zysk Netto: $-319.00 | ROI: -24.56%
+
+--- EDGE > 20% ---
+Zakłady: 15 | Win Rate: 33.3% | Zysk Netto: $-261.00 | ROI: -34.75%
+
+--- EDGE > 30% ---
+Zakłady: 11 | Win Rate: 36.4% | Zysk Netto: $-143.00 | ROI: -26.73%
+
+========================================
+MNOŻNIK DZWONA: 0.95
+========================================
+--- EDGE > 10% ---
+Zakłady: 26 | Win Rate: 46.2% | Zysk Netto: $-242.00 | ROI: -17.07%
+
+--- EDGE > 20% ---
+Zakłady: 16 | Win Rate: 31.2% | Zysk Netto: $-317.50 | ROI: -39.32%
+
+--- EDGE > 30% ---
+Zakłady: 12 | Win Rate: 33.3% | Zysk Netto: $-198.00 | ROI: -33.56%
+
+========================================
+MNOŻNIK DZWONA: 1.00
+========================================
+--- EDGE > 10% ---
+Zakłady: 28 | Win Rate: 46.4% | Zysk Netto: $-269.50 | ROI: -17.46%
+
+--- EDGE > 20% ---
+Zakłady: 18 | Win Rate: 33.3% | Zysk Netto: $-332.50 | ROI: -36.12%
+
+--- EDGE > 30% ---
+Zakłady: 12 | Win Rate: 33.3% | Zysk Netto: $-198.00 | ROI: -33.56%
+
+========================================
+MNOŻNIK DZWONA: 1.05
+========================================
+--- EDGE > 10% ---
+Zakłady: 31 | Win Rate: 48.4% | Zysk Netto: $-266.50 | ROI: -15.35%
+
+--- EDGE > 20% ---
+Zakłady: 20 | Win Rate: 40.0% | Zysk Netto: $-255.00 | ROI: -24.54%
+
+--- EDGE > 30% ---
+Zakłady: 14 | Win Rate: 35.7% | Zysk Netto: $-206.00 | ROI: -29.60%
+
+========================================
+MNOŻNIK DZWONA: 1.10
+========================================
+--- EDGE > 10% ---
+Zakłady: 33 | Win Rate: 51.5% | Zysk Netto: $-201.50 | ROI: -10.79%
+
+--- EDGE > 20% ---
+Zakłady: 20 | Win Rate: 40.0% | Zysk Netto: $-255.00 | ROI: -24.54%
+
+--- EDGE > 30% ---
+Zakłady: 15 | Win Rate: 33.3% | Zysk Netto: $-261.00 | ROI: -34.75%
+
+========================================
+MNOŻNIK DZWONA: 1.15
+========================================
+--- EDGE > 10% ---
+Zakłady: 33 | Win Rate: 51.5% | Zysk Netto: $-201.50 | ROI: -10.79%
+
+--- EDGE > 20% ---
+Zakłady: 22 | Win Rate: 45.5% | Zysk Netto: $-178.00 | ROI: -15.37%
+
+--- EDGE > 30% ---
+Zakłady: 15 | Win Rate: 33.3% | Zysk Netto: $-261.00 | ROI: -34.75%
+
+========================================
+MNOŻNIK DZWONA: 1.20
+========================================
+--- EDGE > 10% ---
+Zakłady: 33 | Win Rate: 51.5% | Zysk Netto: $-201.50 | ROI: -10.79%
+
+--- EDGE > 20% ---
+Zakłady: 24 | Win Rate: 45.8% | Zysk Netto: $-204.00 | ROI: -15.91%
+
+--- EDGE > 30% ---
+Zakłady: 16 | Win Rate: 31.2% | Zysk Netto: $-317.50 | ROI: -39.32%
+
+========================================
+MNOŻNIK DZWONA: 1.25
+========================================
+--- EDGE > 10% ---
+Zakłady: 35 | Win Rate: 51.4% | Zysk Netto: $-236.50 | ROI: -11.82%
+
+--- EDGE > 20% ---
+Zakłady: 25 | Win Rate: 44.0% | Zysk Netto: $-265.00 | ROI: -19.73%
+
+--- EDGE > 30% ---
+Zakłady: 18 | Win Rate: 33.3% | Zysk Netto: $-332.50 | ROI: -36.12%
+
+========================================
+MNOŻNIK DZWONA: 1.30
+========================================
+--- EDGE > 10% ---
+Zakłady: 36 | Win Rate: 52.8% | Zysk Netto: $-206.00 | ROI: -9.96%
+
+--- EDGE > 20% ---
+Zakłady: 26 | Win Rate: 46.2% | Zysk Netto: $-229.00 | ROI: -16.30%
+
+--- EDGE > 30% ---
+Zakłady: 18 | Win Rate: 33.3% | Zysk Netto: $-332.50 | ROI: -36.12%
+

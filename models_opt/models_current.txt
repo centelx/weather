@@ -1,0 +1,23 @@
+==========================================
+NAJLEPSZE BIEŻĄCE MODELE (wg błędu MAE)
+==========================================
+
+MIAMI
+------------------------------------------
+Temperatura MAX:
+- Najlepszy model: SVR (optymalizowany podzbiór N=24 cech)
+- Średni błąd (MAE): 0.60°C
+
+Temperatura MIN:
+- Najlepszy model: SVR (optymalizowany podzbiór N=12 cech) / Random Forest (Baza)
+- Średni błąd (MAE): ~0.83°C (SVR N=12 wykręca 0.8364, RF Baseline 0.8354)
+
+LOS ANGELES (Baza rozszerzona o lata 2022-2024)
+------------------------------------------
+Temperatura MAX:
+- Najlepszy model: SVR (optymalizowany podzbiór N=12 cech)
+- Średni błąd (MAE): 0.69°C
+
+Temperatura MIN:
+- Najlepszy model: XGBoost (Standardowy na pełnych 38 cechach)
+- Średni błąd (MAE): 0.60°C (SVR z N=30 cech osiąga 0.63°C, więc króluje stary XGBoost)

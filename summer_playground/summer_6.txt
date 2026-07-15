@@ -1,0 +1,6 @@
+WYNIKI - TRENING NA WSZYSTKICH DANYCH (Model Ogólny)
+-----------------------------------------------------------
+TEST: Zbiór testowy: TYLKO Maj - PaŸdziernik 2025 (01.05 - 31.10)
+MIAMI:
+- MAX (SVR N=24): miami_max_may_oct_all: MAE 0.6752, RMSE 0.8820 (Train: 1739, Val: 184)
+- MIN (SVR N=12): miami_min_may_oct_all: MAE 0.8040, RMSE 1.0463 (Train: 1739, Val: 184)

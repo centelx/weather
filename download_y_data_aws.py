@@ -66,12 +66,18 @@ def process_and_save(observations, output_file):
     daily['temperature_mean'] = daily['temperature_mean'].round(1)
     
     # Filtr na daty pożądane przez użytkownika
-    daily = daily[(daily['date'] >= datetime.date(2022, 1, 1)) & (daily['date'] <= datetime.date(2026, 7, 9))]
+    daily = daily[(daily['date'] >= datetime.date(2021, 4, 1)) & (daily['date'] <= datetime.date(2026, 7, 9))]
+    
+    # Sort chronologically just in case
+    daily = daily.sort_values('date').reset_index(drop=True)
     
     daily.to_csv(output_file, index=False)
     print(f"Zapisano {len(daily)} dni do pliku: {output_file}")
     
 if __name__ == "__main__":
-    obs = fetch_weather_history("20220101", "20260709")
+    obs = fetch_weather_history("20210401", "20260709")
     os.makedirs("y_data_aws", exist_ok=True)
-    process_and_save(obs, "y_data_aws/y_miami.csv")
+    
+    out_file = "y_data_aws/y_miami.csv"
+    process_and_save(obs, out_file)
+

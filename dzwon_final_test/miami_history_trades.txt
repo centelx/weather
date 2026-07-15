@@ -1,0 +1,141 @@
+--- SZCZEGÓŁOWY DZIENNIK ZAKŁADÓW: MIAMI (MAX & MIN JEDNOCZEŚNIE) ---
+Parametry: Edge > 0.3, Min Price > 0.3, Strona: NO, Dzwon: 0.70, Snapshot 15:00 UTC
+
+Zakład #1 | Data: 2026-06-14
+Typ rynku: MIN_NO | Koszyk (Temperatura): 78-79
+Prawdopodobieństwo Modelu: 73.53%
+Cena na Giełdzie (Kurs):   48.00%
+Zainwestowano: $48.00
+Wynik finansowy: $-48.00 (PRZEGRANA)
+--------------------------------------------------
+Zakład #2 | Data: 2026-06-15
+Typ rynku: MIN_NO | Koszyk (Temperatura): 78-79
+Prawdopodobieństwo Modelu: 70.83%
+Cena na Giełdzie (Kurs):   49.50%
+Zainwestowano: $49.50
+Wynik finansowy: $-49.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #3 | Data: 2026-06-16
+Typ rynku: MIN_NO | Koszyk (Temperatura): 78-79
+Prawdopodobieństwo Modelu: 72.32%
+Cena na Giełdzie (Kurs):   50.50%
+Zainwestowano: $50.50
+Wynik finansowy: $-50.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #4 | Data: 2026-06-17
+Typ rynku: MAX_NO | Koszyk (Temperatura): 92-93
+Prawdopodobieństwo Modelu: 76.51%
+Cena na Giełdzie (Kurs):   41.50%
+Zainwestowano: $41.50
+Wynik finansowy: $-41.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #5 | Data: 2026-06-19
+Typ rynku: MAX_NO | Koszyk (Temperatura): 92-93
+Prawdopodobieństwo Modelu: 65.48%
+Cena na Giełdzie (Kurs):   43.50%
+Zainwestowano: $43.50
+Wynik finansowy: $-43.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #6 | Data: 2026-06-20
+Typ rynku: MAX_NO | Koszyk (Temperatura): 92-93
+Prawdopodobieństwo Modelu: 80.30%
+Cena na Giełdzie (Kurs):   57.50%
+Zainwestowano: $57.50
+Wynik finansowy: $-57.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #7 | Data: 2026-06-22
+Typ rynku: MAX_NO | Koszyk (Temperatura): 92-93
+Prawdopodobieństwo Modelu: 68.48%
+Cena na Giełdzie (Kurs):   49.50%
+Zainwestowano: $49.50
+Wynik finansowy: $-49.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #8 | Data: 2026-06-23
+Typ rynku: MAX_NO | Koszyk (Temperatura): 92-93
+Prawdopodobieństwo Modelu: 66.03%
+Cena na Giełdzie (Kurs):   46.50%
+Zainwestowano: $46.50
+Wynik finansowy: $51.50 (WYGRANA)
+--------------------------------------------------
+Zakład #9 | Data: 2026-06-26
+Typ rynku: MIN_NO | Koszyk (Temperatura): 80-81
+Prawdopodobieństwo Modelu: 76.12%
+Cena na Giełdzie (Kurs):   46.50%
+Zainwestowano: $46.50
+Wynik finansowy: $-46.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #10 | Data: 2026-06-27
+Typ rynku: MIN_NO | Koszyk (Temperatura): 80-81
+Prawdopodobieństwo Modelu: 76.66%
+Cena na Giełdzie (Kurs):   52.50%
+Zainwestowano: $52.50
+Wynik finansowy: $45.50 (WYGRANA)
+--------------------------------------------------
+Zakład #11 | Data: 2026-06-27
+Typ rynku: MAX_NO | Koszyk (Temperatura): 90-91
+Prawdopodobieństwo Modelu: 63.59%
+Cena na Giełdzie (Kurs):   47.50%
+Zainwestowano: $47.50
+Wynik finansowy: $-47.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #12 | Data: 2026-06-30
+Typ rynku: MIN_NO | Koszyk (Temperatura): 80-81
+Prawdopodobieństwo Modelu: 77.23%
+Cena na Giełdzie (Kurs):   56.00%
+Zainwestowano: $56.00
+Wynik finansowy: $42.00 (WYGRANA)
+--------------------------------------------------
+Zakład #13 | Data: 2026-06-30
+Typ rynku: MAX_NO | Koszyk (Temperatura): 94-95
+Prawdopodobieństwo Modelu: 76.08%
+Cena na Giełdzie (Kurs):   50.50%
+Zainwestowano: $50.50
+Wynik finansowy: $47.50 (WYGRANA)
+--------------------------------------------------
+Zakład #14 | Data: 2026-07-01
+Typ rynku: MAX_NO | Koszyk (Temperatura): 90-91
+Prawdopodobieństwo Modelu: 80.86%
+Cena na Giełdzie (Kurs):   59.00%
+Zainwestowano: $59.00
+Wynik finansowy: $39.00 (WYGRANA)
+--------------------------------------------------
+Zakład #15 | Data: 2026-07-02
+Typ rynku: MAX_NO | Koszyk (Temperatura): 90-91
+Prawdopodobieństwo Modelu: 70.38%
+Cena na Giełdzie (Kurs):   50.50%
+Zainwestowano: $50.50
+Wynik finansowy: $47.50 (WYGRANA)
+--------------------------------------------------
+Zakład #16 | Data: 2026-07-05
+Typ rynku: MAX_NO | Koszyk (Temperatura): 90-91
+Prawdopodobieństwo Modelu: 80.08%
+Cena na Giełdzie (Kurs):   41.50%
+Zainwestowano: $41.50
+Wynik finansowy: $56.50 (WYGRANA)
+--------------------------------------------------
+Zakład #17 | Data: 2026-07-05
+Typ rynku: MIN_NO | Koszyk (Temperatura): 78-79
+Prawdopodobieństwo Modelu: 83.67%
+Cena na Giełdzie (Kurs):   59.00%
+Zainwestowano: $59.00
+Wynik finansowy: $39.00 (WYGRANA)
+--------------------------------------------------
+Zakład #18 | Data: 2026-07-06
+Typ rynku: MAX_NO | Koszyk (Temperatura): 90-91
+Prawdopodobieństwo Modelu: 70.36%
+Cena na Giełdzie (Kurs):   52.50%
+Zainwestowano: $52.50
+Wynik finansowy: $-52.50 (PRZEGRANA)
+--------------------------------------------------
+Zakład #19 | Data: 2026-07-08
+Typ rynku: MAX_NO | Koszyk (Temperatura): 92-93
+Prawdopodobieństwo Modelu: 64.98%
+Cena na Giełdzie (Kurs):   45.50%
+Zainwestowano: $45.50
+Wynik finansowy: $-45.50 (PRZEGRANA)
+--------------------------------------------------
+
+--- PODSUMOWANIE ---
+Łącznie zakładów: 19
+Wygranych: 8 (42.1%)
+Zysk netto: $-163.50

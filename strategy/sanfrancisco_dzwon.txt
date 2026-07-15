@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA SANFRANCISCO ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MAX, Dzwon 0.80
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\data\real_prices\real_polymarket_prices_sanfrancisco_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 8
+Win Rate:       75.0%
+Suma stawek:    $453.50
+Zysk netto:     $134.50
+Końcowy portfel:$1134.50
+ROI:            29.66%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.

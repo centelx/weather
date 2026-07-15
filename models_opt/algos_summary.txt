@@ -1,0 +1,39 @@
+--- BŁĘDY ALTERNATYWNYCH ALGORYTMÓW (Baza: Średnia GFS+HRRR) ---
+
+==========================================
+MIASTO: MIAMI
+==========================================
+--- ALGORYTM: LGBM ---
+  MAX -> MAE: 0.6636 | RMSE: 0.8452
+  MIN -> MAE: 0.8604 | RMSE: 1.0559
+
+--- ALGORYTM: CATBOOST ---
+  MAX -> MAE: 0.6430 | RMSE: 0.8524
+  MIN -> MAE: 0.8642 | RMSE: 1.0651
+
+--- ALGORYTM: RF ---
+  MAX -> MAE: 0.6924 | RMSE: 0.9027
+  MIN -> MAE: 0.8354 | RMSE: 1.0413
+
+--- ALGORYTM: SVR ---
+  MAX -> MAE: 0.6190 | RMSE: 0.8280
+  MIN -> MAE: 0.8638 | RMSE: 1.0748
+
+==========================================
+MIASTO: LOSANGELES
+==========================================
+--- ALGORYTM: LGBM ---
+  MAX -> MAE: 1.0321 | RMSE: 1.3295
+  MIN -> MAE: 0.6453 | RMSE: 0.8469
+
+--- ALGORYTM: CATBOOST ---
+  MAX -> MAE: 0.9727 | RMSE: 1.2747
+  MIN -> MAE: 0.6640 | RMSE: 0.8538
+
+--- ALGORYTM: RF ---
+  MAX -> MAE: 1.0056 | RMSE: 1.3175
+  MIN -> MAE: 0.6401 | RMSE: 0.8206
+
+--- ALGORYTM: SVR ---
+  MAX -> MAE: 0.8169 | RMSE: 1.1191
+  MIN -> MAE: 0.6504 | RMSE: 0.8387

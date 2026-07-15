@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA SHANGHAI (MIN) ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MIN, Dzwon 0.70, Snapshot 15:00 UTC
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\1_day_1200_polymarket_data\real_polymarket_prices_shanghai_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 17
+Win Rate:       35.3%
+Suma stawek:    $843.00
+Zysk netto:     $-255.00
+Końcowy portfel:$745.00
+ROI:            -30.25%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.

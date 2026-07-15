@@ -1,0 +1,12 @@
+WYNIKI - PODEJŚCIE 1 (Model ogólny, test letni)
+-----------------------------------------------------------
+Zbiór testowy: 01.06.2025 - 30.09.2025 ORAZ 01.06.2026 - 08.07.2026 (Dni: 161)
+Zbiór treningowy: Wszystkie pozostałe dni z lat 2021-2026 (Dni: 1762/1763)
+
+MIAMI:
+- MAX (SVR N=24): MAE 0.6761, RMSE 0.8693
+- MIN (SVR N=12): MAE 0.8308, RMSE 1.0548
+
+LOS ANGELES:
+- MAX (SVR N=12): MAE 0.6794, RMSE 0.9034
+- MIN (XGBoost N=ALL): MAE 0.5694, RMSE 0.7095

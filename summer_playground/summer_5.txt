@@ -1,0 +1,11 @@
+WYNIKI - TRENING NA WSZYSTKICH DANYCH (Model Ogólny)
+-----------------------------------------------------------
+TEST 1: Zbiór testowy: TYLKO Lipiec - PaŸdziernik 2025 (01.07 - 31.10)
+LOS ANGELES:
+- MAX (SVR N=12): la_max_jul_oct: MAE 0.7867, RMSE 1.1340 (Train: 1801, Val: 123)
+- MIN (XGBoost N=ALL): la_min_jul_oct: MAE 0.6133, RMSE 0.7677 (Train: 1801, Val: 123)
+
+TEST 2: Zbiór testowy: TYLKO Czerwiec - PaŸdziernik 2025 (01.06 - 31.10)
+LOS ANGELES:
+- MAX (SVR N=12): la_max_jun_oct: MAE 0.7840, RMSE 1.1034 (Train: 1771, Val: 153)
+- MIN (XGBoost N=ALL): la_min_jun_oct: MAE 0.6118, RMSE 0.7545 (Train: 1771, Val: 153)

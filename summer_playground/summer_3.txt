@@ -1,0 +1,12 @@
+WYNIKI - PODEJŒCIE 3 (Model wyspecjalizowany ROZSZERZONE LATO Maj-PaŸ)
+-----------------------------------------------------------
+Zbiór testowy: TYLKO 01.05.2025 - 31.10.2025
+Zbiór treningowy: Maj-PaŸ 2021, 2022, 2023, 2024, oraz Maj-Lipiec 2026
+
+MIAMI:
+- MAX (SVR N=24): miami_model_max_summer_pure: MAE 0.6508, RMSE 0.8561 (Train: 805, Val: 184)
+- MIN (SVR N=12): miami_model_min_summer_pure: MAE 0.7891, RMSE 1.0170 (Train: 805, Val: 184)
+
+LOS ANGELES:
+- MAX (SVR N=12): losangeles_model_max_summer_pure: MAE 0.7947, RMSE 1.1321 (Train: 806, Val: 184)
+- MIN (XGBoost N=ALL): losangeles_model_min_summer_pure: MAE 0.6303, RMSE 0.7894 (Train: 806, Val: 184)

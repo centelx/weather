@@ -1,0 +1,46 @@
+--- WYNIKI UCINANIA CECH (FEATURE SELECTION) DLA SVR ---
+
+========================================
+MIASTO: MIAMI | TARGET: MAX
+========================================
+Ilość cech: 10 | MAE: 0.6339
+Ilość cech: 12 | MAE: 0.6342
+Ilość cech: 14 | MAE: 0.6444
+Ilość cech: 16 | MAE: 0.6377
+Ilość cech: 18 | MAE: 0.6317
+Ilość cech: 20 | MAE: 0.6148
+Ilość cech: 24 | MAE: 0.6112
+Ilość cech: 30 | MAE: 0.6309
+========================================
+MIASTO: MIAMI | TARGET: MIN
+========================================
+Ilość cech: 10 | MAE: 0.8668
+Ilość cech: 12 | MAE: 0.8364
+Ilość cech: 14 | MAE: 0.8660
+Ilość cech: 16 | MAE: 0.8749
+Ilość cech: 18 | MAE: 0.8641
+Ilość cech: 20 | MAE: 0.8435
+Ilość cech: 24 | MAE: 0.8625
+Ilość cech: 30 | MAE: 0.8561
+========================================
+MIASTO: LOSANGELES | TARGET: MAX
+========================================
+Ilość cech: 10 | MAE: 0.8983
+Ilość cech: 12 | MAE: 0.7197
+Ilość cech: 14 | MAE: 0.7245
+Ilość cech: 16 | MAE: 0.7450
+Ilość cech: 18 | MAE: 0.7393
+Ilość cech: 20 | MAE: 0.7377
+Ilość cech: 24 | MAE: 0.7302
+Ilość cech: 30 | MAE: 0.7289
+========================================
+MIASTO: LOSANGELES | TARGET: MIN
+========================================
+Ilość cech: 10 | MAE: 0.6576
+Ilość cech: 12 | MAE: 0.6541
+Ilość cech: 14 | MAE: 0.6954
+Ilość cech: 16 | MAE: 0.6442
+Ilość cech: 18 | MAE: 0.6601
+Ilość cech: 20 | MAE: 0.6435
+Ilość cech: 24 | MAE: 0.6572
+Ilość cech: 30 | MAE: 0.6385

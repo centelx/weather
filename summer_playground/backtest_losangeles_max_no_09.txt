@@ -1,0 +1,74 @@
+--- FINA£OWE BACKTESTY: LOSANGELES MAX (NO BETS, STD 0.9) ---
+
+PARAMETRY: ROI > 10.0%, Cena > 0.1
+Iloœæ zak³adów: 22
+Win Rate:       45.5%
+Suma stawek:    $1182.00
+Zysk netto:     $-202.00
+Koñcowy portfel:$798.00
+ROI:            -17.09%
+----------------------------------------
+PARAMETRY: ROI > 10.0%, Cena > 0.2
+Iloœæ zak³adów: 22
+Win Rate:       45.5%
+Suma stawek:    $1182.00
+Zysk netto:     $-202.00
+Koñcowy portfel:$798.00
+ROI:            -17.09%
+----------------------------------------
+PARAMETRY: ROI > 10.0%, Cena > 0.3
+Iloœæ zak³adów: 22
+Win Rate:       45.5%
+Suma stawek:    $1182.00
+Zysk netto:     $-202.00
+Koñcowy portfel:$798.00
+ROI:            -17.09%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.1
+Iloœæ zak³adów: 17
+Win Rate:       47.1%
+Suma stawek:    $878.00
+Zysk netto:     $-94.00
+Koñcowy portfel:$906.00
+ROI:            -10.71%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.2
+Iloœæ zak³adów: 17
+Win Rate:       47.1%
+Suma stawek:    $878.00
+Zysk netto:     $-94.00
+Koñcowy portfel:$906.00
+ROI:            -10.71%
+----------------------------------------
+PARAMETRY: ROI > 20.0%, Cena > 0.3
+Iloœæ zak³adów: 17
+Win Rate:       47.1%
+Suma stawek:    $878.00
+Zysk netto:     $-94.00
+Koñcowy portfel:$906.00
+ROI:            -10.71%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.1
+Iloœæ zak³adów: 10
+Win Rate:       40.0%
+Suma stawek:    $483.00
+Zysk netto:     $-91.00
+Koñcowy portfel:$909.00
+ROI:            -18.84%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.2
+Iloœæ zak³adów: 10
+Win Rate:       40.0%
+Suma stawek:    $483.00
+Zysk netto:     $-91.00
+Koñcowy portfel:$909.00
+ROI:            -18.84%
+----------------------------------------
+PARAMETRY: ROI > 30.0%, Cena > 0.3
+Iloœæ zak³adów: 10
+Win Rate:       40.0%
+Suma stawek:    $483.00
+Zysk netto:     $-91.00
+Koñcowy portfel:$909.00
+ROI:            -18.84%
+----------------------------------------

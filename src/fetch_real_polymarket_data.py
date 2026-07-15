@@ -12,6 +12,8 @@ def generate_slugs(target_date, city="nyc"):
     year = dt.year
     
     city_str = "new-york-city" if city == "nyc" else city
+    if city == "sanfrancisco":
+        city_str = "san-francisco"
     
     slug_max = f"highest-temperature-in-{city_str}-on-{month_name}-{day}-{year}"
     slug_min = f"lowest-temperature-in-{city_str}-on-{month_name}-{day}-{year}"
@@ -30,7 +32,7 @@ def generate_slugs(target_date, city="nyc"):
         ]
 
 def fetch_real_polymarket_data(base_path, city):
-    preds_file = os.path.join(base_path, f'predictions_history_{city}.csv')
+    preds_file = os.path.join(base_path, 'data', 'predictions_history', f'predictions_history_{city}.csv')
     if not os.path.exists(preds_file):
         print(f"Brak pliku {preds_file}.")
         return
@@ -146,7 +148,7 @@ def fetch_real_polymarket_data(base_path, city):
                 time.sleep(0.2) # Rate limiting
                 
     df_out = pd.DataFrame(out_records)
-    out_csv = os.path.join(base_path, f'real_polymarket_prices_{city}_with_no.csv')
+    out_csv = os.path.join(base_path, 'data', 'real_prices', f'real_polymarket_prices_{city}_with_no.csv')
     df_out.to_csv(out_csv, index=False)
     print(f"\nZakończono pobieranie! Wyniki zapisano do {out_csv}")
 

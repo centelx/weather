@@ -9,7 +9,7 @@ except ImportError:
     MATPLOTLIB_AVAILABLE = False
 
 class Backtester:
-    def __init__(self, df_preds, df_market, df_actuals, initial_bankroll=1000.0, edge_threshold=0.05, bet_size=10.0, fee_pct=0.0, min_price=0.30, max_price=0.99):
+    def __init__(self, df_preds, df_market, df_actuals, initial_bankroll=1000.0, edge_threshold=0.05, bet_size=10.0, fee_pct=0.0, min_price=0.30, max_price=0.99, side='ALL'):
         """
         Silnik backtestujący strategie na historycznych danych Polymarket.
         :param df_preds: DataFrame z naszymi predykcjami (target_date, forecast_horizon, type, bucket, model_probability)
@@ -21,6 +21,7 @@ class Backtester:
         :param fee_pct: Prowizja/Slippage giełdy od wygranej (np. 0.02 to 2% fee)
         :param min_price: Minimalna cena kupna
         :param max_price: Maksymalna cena kupna
+        :param side: Strona zakładu (YES, NO, ALL)
         """
         self.df_preds = df_preds
         self.df_market = df_market
@@ -33,6 +34,7 @@ class Backtester:
         self.fee_pct = fee_pct
         self.min_price = min_price
         self.max_price = max_price
+        self.side = side
         
         self.history = []
         self.equity_curve = []
@@ -69,9 +71,9 @@ class Backtester:
                     
                 b_min, b_max = map(float, trade['bucket'].replace('C', '').replace('F', '').split('-'))
                 if trade['type'] == 'MAX':
-                    is_hit = (b_min <= actual_max < b_max)
+                    is_hit = (b_min <= actual_max <= b_max)
                 else:
-                    is_hit = (b_min <= actual_min < b_max)
+                    is_hit = (b_min <= actual_min <= b_max)
                 
                 # --- YES BET EVALUATION ---
                 p_market_yes = min(0.99, p_market_yes_raw + 0.01) # dodajemy 0.01 dla pewności
@@ -84,7 +86,7 @@ class Backtester:
                     expected_profit_yes = expected_revenue_yes - cost_yes
                     expected_roi_yes = expected_profit_yes / cost_yes
                     
-                    if expected_roi_yes > self.edge_threshold:
+                    if expected_roi_yes > self.edge_threshold and self.side in ['ALL', 'YES']:
                         profit = net_payout_on_win - cost_yes if is_hit else -cost_yes
                         daily_pnl += profit
                         
@@ -115,7 +117,7 @@ class Backtester:
                         expected_profit_no = expected_revenue_no - cost_no
                         expected_roi_no = expected_profit_no / cost_no
                         
-                        if expected_roi_no > self.edge_threshold:
+                        if expected_roi_no > self.edge_threshold and self.side in ['ALL', 'NO']:
                             profit = net_payout_on_win - cost_no if not is_hit else -cost_no
                             daily_pnl += profit
                             

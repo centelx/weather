@@ -1,0 +1,129 @@
+--- PREDYKCJE MIAMI MAX (14 czerwca - 8 lipca 2026) ---
+Wygenerowane przez: Regresja Kwantylowa (LightGBM) + Interpolacja Asymetryczna CDF
+Cechy dodatkowe: Błąd Modelu 1 z przed 2, 3 i 4 dni.
+
+Data celu: 2026-06-14 (przewidziano: 2026-06-13 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 62.6%)
+ -> Sąsiednie koszyki: 92-93 °F (16.3%), 88-89 °F (12.8%)
+ -> [Debug] Kwantyle: Q15=89.3F | Q50=90.6F | Q85=91.8F
+----------------------------------------
+Data celu: 2026-06-15 (przewidziano: 2026-06-14 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 61.3%)
+ -> Sąsiednie koszyki: 94-95 °F (18.2%), 90-91 °F (12.1%)
+ -> [Debug] Kwantyle: Q15=91.3F | Q50=92.7F | Q85=93.8F
+----------------------------------------
+Data celu: 2026-06-16 (przewidziano: 2026-06-15 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 58.6%)
+ -> Sąsiednie koszyki: 90-91 °F (21.3%), 94-95 °F (11.5%)
+ -> [Debug] Kwantyle: Q15=90.9F | Q50=92.2F | Q85=93.4F
+----------------------------------------
+Data celu: 2026-06-17 (przewidziano: 2026-06-16 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 62.7%)
+ -> Sąsiednie koszyki: 94-95 °F (14.9%), 90-91 °F (13.9%)
+ -> [Debug] Kwantyle: Q15=91.3F | Q50=92.5F | Q85=93.8F
+----------------------------------------
+Data celu: 2026-06-18 (przewidziano: 2026-06-17 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 67.5%)
+ -> Sąsiednie koszyki: 88-89 °F (13.9%), 92-93 °F (13.0%)
+ -> [Debug] Kwantyle: Q15=89.2F | Q50=90.6F | Q85=91.4F
+----------------------------------------
+Data celu: 2026-06-19 (przewidziano: 2026-06-18 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 69.3%)
+ -> Sąsiednie koszyki: 94-95 °F (14.9%), 90-91 °F (12.3%)
+ -> [Debug] Kwantyle: Q15=91.6F | Q50=92.7F | Q85=93.6F
+----------------------------------------
+Data celu: 2026-06-20 (przewidziano: 2026-06-19 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 49.6%)
+ -> Sąsiednie koszyki: 90-91 °F (22.6%), 94-95 °F (13.0%)
+ -> [Debug] Kwantyle: Q15=90.9F | Q50=92.2F | Q85=94.0F
+----------------------------------------
+Data celu: 2026-06-21 (przewidziano: 2026-06-20 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 42.5%)
+ -> Sąsiednie koszyki: 90-91 °F (35.9%), 88-89 °F (8.6%)
+ -> [Debug] Kwantyle: Q15=89.8F | Q50=91.5F | Q85=92.6F
+----------------------------------------
+Data celu: 2026-06-22 (przewidziano: 2026-06-21 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 50.4%)
+ -> Sąsiednie koszyki: 90-91 °F (20.9%), 94-95 °F (13.6%)
+ -> [Debug] Kwantyle: Q15=90.7F | Q50=92.3F | Q85=93.9F
+----------------------------------------
+Data celu: 2026-06-23 (przewidziano: 2026-06-22 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 41.9%)
+ -> Sąsiednie koszyki: 92-93 °F (33.7%), 88-89 °F (9.2%)
+ -> [Debug] Kwantyle: Q15=90.0F | Q50=91.4F | Q85=93.1F
+----------------------------------------
+Data celu: 2026-06-24 (przewidziano: 2026-06-23 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 59.8%)
+ -> Sąsiednie koszyki: 88-89 °F (24.1%), 92-93 °F (10.1%)
+ -> [Debug] Kwantyle: Q15=89.2F | Q50=90.0F | Q85=91.5F
+----------------------------------------
+Data celu: 2026-06-25 (przewidziano: 2026-06-24 po runie 1200)
+ -> Główna predykcja: 88-89 °F (Szansa: 41.6%)
+ -> Sąsiednie koszyki: 90-91 °F (37.7%), 86-87 °F (8.7%)
+ -> [Debug] Kwantyle: Q15=88.2F | Q50=89.4F | Q85=90.8F
+----------------------------------------
+Data celu: 2026-06-26 (przewidziano: 2026-06-25 po runie 1200)
+ -> Główna predykcja: 88-89 °F (Szansa: 38.1%)
+ -> Sąsiednie koszyki: 90-91 °F (36.5%), 86-87 °F (9.1%)
+ -> [Debug] Kwantyle: Q15=87.2F | Q50=89.3F | Q85=90.5F
+----------------------------------------
+Data celu: 2026-06-27 (przewidziano: 2026-06-26 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 47.0%)
+ -> Sąsiednie koszyki: 92-93 °F (28.2%), 88-89 °F (10.3%)
+ -> [Debug] Kwantyle: Q15=89.6F | Q50=91.1F | Q85=92.7F
+----------------------------------------
+Data celu: 2026-06-28 (przewidziano: 2026-06-27 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 48.6%)
+ -> Sąsiednie koszyki: 92-93 °F (35.0%), 88-89 °F (9.4%)
+ -> [Debug] Kwantyle: Q15=90.1F | Q50=91.2F | Q85=92.3F
+----------------------------------------
+Data celu: 2026-06-29 (przewidziano: 2026-06-28 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 57.2%)
+ -> Sąsiednie koszyki: 90-91 °F (21.1%), 94-95 °F (11.5%)
+ -> [Debug] Kwantyle: Q15=90.9F | Q50=92.2F | Q85=93.6F
+----------------------------------------
+Data celu: 2026-06-30 (przewidziano: 2026-06-29 po runie 1200)
+ -> Główna predykcja: 94-95 °F (Szansa: 51.0%)
+ -> Sąsiednie koszyki: 92-93 °F (34.2%), 96-97 °F (9.5%)
+ -> [Debug] Kwantyle: Q15=93.1F | Q50=93.8F | Q85=95.4F
+----------------------------------------
+Data celu: 2026-07-01 (przewidziano: 2026-06-30 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 35.6%)
+ -> Sąsiednie koszyki: 94-95 °F (34.3%), 90-91 °F (9.5%)
+ -> [Debug] Kwantyle: Q15=91.1F | Q50=93.3F | Q85=95.0F
+----------------------------------------
+Data celu: 2026-07-02 (przewidziano: 2026-07-01 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 43.9%)
+ -> Sąsiednie koszyki: 88-89 °F (28.0%), 92-93 °F (10.0%)
+ -> [Debug] Kwantyle: Q15=88.0F | Q50=89.9F | Q85=91.6F
+----------------------------------------
+Data celu: 2026-07-03 (przewidziano: 2026-07-02 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 53.9%)
+ -> Sąsiednie koszyki: 88-89 °F (20.2%), 92-93 °F (12.2%)
+ -> [Debug] Kwantyle: Q15=88.5F | Q50=90.3F | Q85=91.6F
+----------------------------------------
+Data celu: 2026-07-04 (przewidziano: 2026-07-03 po runie 1200)
+ -> Główna predykcja: 92-93 °F (Szansa: 46.9%)
+ -> Sąsiednie koszyki: 90-91 °F (25.0%), 94-95 °F (10.8%)
+ -> [Debug] Kwantyle: Q15=89.8F | Q50=92.1F | Q85=93.4F
+----------------------------------------
+Data celu: 2026-07-05 (przewidziano: 2026-07-04 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 53.7%)
+ -> Sąsiednie koszyki: 88-89 °F (22.6%), 92-93 °F (11.4%)
+ -> [Debug] Kwantyle: Q15=88.6F | Q50=90.2F | Q85=91.5F
+----------------------------------------
+Data celu: 2026-07-06 (przewidziano: 2026-07-05 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 49.7%)
+ -> Sąsiednie koszyki: 88-89 °F (23.5%), 92-93 °F (12.3%)
+ -> [Debug] Kwantyle: Q15=88.8F | Q50=90.2F | Q85=91.9F
+----------------------------------------
+Data celu: 2026-07-07 (przewidziano: 2026-07-06 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 47.9%)
+ -> Sąsiednie koszyki: 88-89 °F (30.9%), 92-93 °F (10.0%)
+ -> [Debug] Kwantyle: Q15=88.6F | Q50=89.9F | Q85=91.2F
+----------------------------------------
+Data celu: 2026-07-08 (przewidziano: 2026-07-07 po runie 1200)
+ -> Główna predykcja: 90-91 °F (Szansa: 41.9%)
+ -> Sąsiednie koszyki: 92-93 °F (38.4%), 94-95 °F (8.9%)
+ -> [Debug] Kwantyle: Q15=90.5F | Q50=91.5F | Q85=93.1F
+----------------------------------------

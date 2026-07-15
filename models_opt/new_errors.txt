@@ -1,0 +1,21 @@
+===========================================================
+BŁĘDY ANNUALIZOWANE (Pełny Rok Rynkowy: Lipiec 2025 - Lipiec 2026)
+Włączone dane: 2021-2026
+===========================================================
+
+Przesunięcie punktu odcięcia (split_date) na '2025-07-01' odkryło PRAWDZIWĄ formę modeli na wszystkich porach roku.
+
+MIAMI (SVR Optymalny vs XGBoost Baza)
+-----------------------------------------------------------
+- MAX SVR (N=24): MAE 0.6927 (XGBoost wyciąga 0.72) -> Wygrywa SVR
+- MIN SVR (N=12): MAE 0.8320 (XGBoost wyciąga 0.84) -> Wygrywa SVR
+
+LOS ANGELES (SVR Optymalny vs XGBoost Baza)
+-----------------------------------------------------------
+- MAX SVR (N=12): MAE 0.9374 (XGBoost wyciąga 1.07) -> Miażdżąca wygrana SVR
+- MIN SVR (N=30): MAE 0.6697 (XGBoost wyciąga 0.75) -> SVR deklasuje starego króla XGBoost!
+
+Wniosek: 
+Błędy oczywiście wzrosły (bo testujemy też ciężką jesień i zimę, a nie tylko łatwą wiosnę z 2026), ale to udowodniło coś kluczowego:
+SVR po wycięciu szumu zdominował XGBoost w KAŻDEJ z 4 kategorii w pełnym cyklu rocznym!
+Krótkoterminowe zwycięstwo XGBoost na LA MIN (0.60) było tylko złudzeniem wywołanym overfittingiem do wiosny. Na pełnym roku SVR okazał się o klasę stabilniejszy.

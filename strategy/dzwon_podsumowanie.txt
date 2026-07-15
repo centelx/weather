@@ -1,0 +1,8 @@
+--- PODSUMOWANIE GLOBALNE (WSZYSTKIE MIASTA) ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MAX, Dzwon 0.80
+
+Łączna ilość zakładów: 212
+Łączna suma stawek:    $11506.00
+Łączny zysk netto:     $2312.00
+Globalne ROI:          20.09%
+Globalny Win Rate:     66.5%

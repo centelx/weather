@@ -1,0 +1,8 @@
+WYNIKI - PODEJŒCIE 4 (LA Lipiec-PaŸdziernik)
+-----------------------------------------------------------
+Zbiór testowy: TYLKO 01.07.2025 - 31.10.2025
+Zbiór treningowy: Lipiec-PaŸ 2021, 2022, 2023, 2024, oraz Lipiec 2026
+
+LOS ANGELES:
+- MAX (SVR N=12): losangeles_model_max_summer_pure: MAE 0.7982, RMSE 1.1544 (Train: 501, Val: 123)
+- MIN (XGBoost N=ALL): losangeles_model_min_summer_pure: MAE 0.6040, RMSE 0.7561 (Train: 501, Val: 123)

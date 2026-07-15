@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA MIAMI (MAX) ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MAX, Dzwon 0.70, Snapshot 15:00 UTC
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\1_day_1200_polymarket_data\real_polymarket_prices_miami_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 12
+Win Rate:       41.7%
+Suma stawek:    $585.50
+Zysk netto:     $-95.50
+Końcowy portfel:$904.50
+ROI:            -16.31%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.

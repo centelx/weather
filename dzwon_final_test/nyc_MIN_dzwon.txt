@@ -1,0 +1,17 @@
+--- RAPORT BACKTESTU DLA NYC (MIN) ---
+Parametry: Edge > 0.30, Min Price > 0.30, Tylko NIE, Tylko MIN, Dzwon 0.70, Snapshot 15:00 UTC
+
+Wczytywanie predykcji modelu...
+Wczytywanie prawdziwych rozstrzygnięć pogody...
+Wczytywanie prawdziwych cen Polymarket z C:\Users\barto\Desktop\polymarket\weather\1_day_1200_polymarket_data\real_polymarket_prices_nyc_with_no.csv ...
+--- Start Symulacji Backtestu ---
+
+--- RAPORT Z BACKTESTU ---
+Ilość zakładów: 2
+Win Rate:       50.0%
+Suma stawek:    $115.00
+Zysk netto:     $-17.00
+Końcowy portfel:$983.00
+ROI:            -14.78%
+Zapisano Equity Curve do C:\Users\barto\Desktop\polymarket\weather\equity_curve.csv
+Matplotlib nie jest zainstalowany. Pomijam generowanie pliku .png.
