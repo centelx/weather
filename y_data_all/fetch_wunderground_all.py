@@ -128,6 +128,9 @@ def main():
         if not config:
             continue
             
+        if config.get("y_source") != "wunderground":
+            continue
+            
         station = config.get("wunderground_api", "")
         if not station:
             # Pomiń miasta bez uzupełnionego klucza lotniska
