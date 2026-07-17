@@ -5,28 +5,36 @@
     "timezone": "America/New_York",
     "lat": "25.796150",
     "lon": "-80.286791",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KMIA:9:US",
+    "secondary_model": "HRRR"
   },
   "losangeles": {
     "max_slug": "highest-temperature-in-los-angeles-on-{month}-{day}-{year}",
     "timezone": "America/Los_Angeles",
     "lat": "33.941919",
     "lon": "-118.409988",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KLAX:9:US",
+    "secondary_model": "HRRR"
   },
   "wellington": {
     "max_slug": "highest-temperature-in-wellington-on-{month}-{day}-{year}",
     "timezone": "Pacific/Auckland",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "beijing": {
     "max_slug": "highest-temperature-in-beijing-on-{month}-{day}-{year}",
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "london": {
     "max_slug": "highest-temperature-in-london-on-{month}-{day}-{year}",
@@ -34,21 +42,27 @@
     "timezone": "Europe/London",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "busan": {
     "max_slug": "highest-temperature-in-busan-on-{month}-{day}-{year}",
     "timezone": "Asia/Seoul",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "kuala-lumpur": {
     "max_slug": "highest-temperature-in-kuala-lumpur-on-{month}-{day}-{year}",
     "timezone": "Asia/Kuala_Lumpur",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "tokyo": {
     "max_slug": "highest-temperature-in-tokyo-on-{month}-{day}-{year}",
@@ -56,14 +70,18 @@
     "timezone": "Asia/Tokyo",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "milan": {
     "max_slug": "highest-temperature-in-milan-on-{month}-{day}-{year}",
     "timezone": "Europe/Rome",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "hong-kong": {
     "max_slug": "highest-temperature-in-hong-kong-on-{month}-{day}-{year}",
@@ -71,35 +89,45 @@
     "timezone": "Asia/Hong_Kong",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "amsterdam": {
     "max_slug": "highest-temperature-in-amsterdam-on-{month}-{day}-{year}",
     "timezone": "Europe/Amsterdam",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "jeddah": {
     "max_slug": "highest-temperature-in-jeddah-on-{month}-{day}-{year}",
     "timezone": "Asia/Riyadh",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "lucknow": {
     "max_slug": "highest-temperature-in-lucknow-on-{month}-{day}-{year}",
     "timezone": "Asia/Kolkata",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "madrid": {
     "max_slug": "highest-temperature-in-madrid-on-{month}-{day}-{year}",
     "timezone": "Europe/Madrid",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "paris": {
     "max_slug": "highest-temperature-in-paris-on-{month}-{day}-{year}",
@@ -107,7 +135,9 @@
     "timezone": "Europe/Paris",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "shanghai": {
     "max_slug": "highest-temperature-in-shanghai-on-{month}-{day}-{year}",
@@ -115,28 +145,36 @@
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "dallas": {
     "max_slug": "highest-temperature-in-dallas-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
     "lat": "32.822367",
     "lon": "-96.833156",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KDAL:9:US",
+    "secondary_model": "HRRR"
   },
   "shenzhen": {
     "max_slug": "highest-temperature-in-shenzhen-on-{month}-{day}-{year}",
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "chengdu": {
     "max_slug": "highest-temperature-in-chengdu-on-{month}-{day}-{year}",
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "seoul": {
     "max_slug": "highest-temperature-in-seoul-on-{month}-{day}-{year}",
@@ -144,105 +182,135 @@
     "timezone": "Asia/Seoul",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "istanbul": {
     "max_slug": "highest-temperature-in-istanbul-on-{month}-{day}-{year}",
     "timezone": "Europe/Istanbul",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "guangzhou": {
     "max_slug": "highest-temperature-in-guangzhou-on-{month}-{day}-{year}",
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "tel-aviv": {
     "max_slug": "highest-temperature-in-tel-aviv-on-{month}-{day}-{year}",
     "timezone": "Asia/Tel_Aviv",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "chicago": {
     "max_slug": "highest-temperature-in-chicago-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
     "lat": "41.978404",
     "lon": "-87.908376",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KORD:9:US",
+    "secondary_model": "HRRR"
   },
   "chongqing": {
     "max_slug": "highest-temperature-in-chongqing-on-{month}-{day}-{year}",
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "taipei": {
     "max_slug": "highest-temperature-in-taipei-on-{month}-{day}-{year}",
     "timezone": "Asia/Taipei",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "helsinki": {
     "max_slug": "highest-temperature-in-helsinki-on-{month}-{day}-{year}",
     "timezone": "Europe/Helsinki",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "munich": {
     "max_slug": "highest-temperature-in-munich-on-{month}-{day}-{year}",
     "timezone": "Europe/Berlin",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "mexico-city": {
     "max_slug": "highest-temperature-in-mexico-city-on-{month}-{day}-{year}",
     "timezone": "America/Mexico_City",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "warsaw": {
     "max_slug": "highest-temperature-in-warsaw-on-{month}-{day}-{year}",
     "timezone": "Europe/Warsaw",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-EU"
   },
   "singapore": {
     "max_slug": "highest-temperature-in-singapore-on-{month}-{day}-{year}",
     "timezone": "Asia/Singapore",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "toronto": {
     "max_slug": "highest-temperature-in-toronto-on-{month}-{day}-{year}",
     "timezone": "America/Toronto",
     "lat": "43.681422",
     "lon": "-79.633988",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "CYYZ:9:CA",
+    "secondary_model": "HRRR"
   },
   "wuhan": {
     "max_slug": "highest-temperature-in-wuhan-on-{month}-{day}-{year}",
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "ankara": {
     "max_slug": "highest-temperature-in-ankara-on-{month}-{day}-{year}",
     "timezone": "Europe/Istanbul",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "nyc": {
     "max_slug": "highest-temperature-in-nyc-on-{month}-{day}-{year}",
@@ -250,104 +318,134 @@
     "timezone": "America/New_York",
     "lat": "40.775824",
     "lon": "-73.875524",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KLGA:9:US",
+    "secondary_model": "HRRR"
   },
   "austin": {
     "max_slug": "highest-temperature-in-austin-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
     "lat": "30.196825",
     "lon": "-97.665629",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KAUS:9:US",
+    "secondary_model": "HRRR"
   },
   "manila": {
     "max_slug": "highest-temperature-in-manila-on-{month}-{day}-{year}",
     "timezone": "Asia/Manila",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "panama-city": {
     "max_slug": "highest-temperature-in-panama-city-on-{month}-{day}-{year}",
     "timezone": "America/Panama",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "seattle": {
     "max_slug": "highest-temperature-in-seattle-on-{month}-{day}-{year}",
     "timezone": "America/Los_Angeles",
     "lat": "47.452602",
     "lon": "122.309579",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KSEA:9:US",
+    "secondary_model": "HRRR"
   },
   "san-francisco": {
     "max_slug": "highest-temperature-in-san-francisco-on-{month}-{day}-{year}",
     "timezone": "America/Los_Angeles",
     "lat": "37.622953",
     "lon": "-122.389108",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KSFO:9:US",
+    "secondary_model": "HRRR"
   },
   "moscow": {
     "max_slug": "highest-temperature-in-moscow-on-{month}-{day}-{year}",
     "timezone": "Europe/Moscow",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "karachi": {
     "max_slug": "highest-temperature-in-karachi-on-{month}-{day}-{year}",
     "timezone": "Asia/Karachi",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "qingdao": {
     "max_slug": "highest-temperature-in-qingdao-on-{month}-{day}-{year}",
     "timezone": "Asia/Shanghai",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "cape-town": {
     "max_slug": "highest-temperature-in-cape-town-on-{month}-{day}-{year}",
     "timezone": "Africa/Johannesburg",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "denver": {
     "max_slug": "highest-temperature-in-denver-on-{month}-{day}-{year}",
     "timezone": "America/Denver",
     "lat": "39.707840",
     "lon": "-104.756536",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KBKF:9:US",
+    "secondary_model": "HRRR"
   },
   "sao-paulo": {
     "max_slug": "highest-temperature-in-sao-paulo-on-{month}-{day}-{year}",
     "timezone": "America/Sao_Paulo",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "buenos-aires": {
     "max_slug": "highest-temperature-in-buenos-aires-on-{month}-{day}-{year}",
     "timezone": "America/Argentina/Buenos_Aires",
     "lat": "",
     "lon": "",
-    "model": ""
+    "model": "",
+    "wunderground_api": "",
+    "secondary_model": "ICON-GLOBAL"
   },
   "atlanta": {
     "max_slug": "highest-temperature-in-atlanta-on-{month}-{day}-{year}",
     "timezone": "America/New_York",
     "lat": "33.637038",
     "lon": "-84.427484",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KATL:9:US",
+    "secondary_model": "HRRR"
   },
   "houston": {
     "max_slug": "highest-temperature-in-houston-on-{month}-{day}-{year}",
     "timezone": "America/Chicago",
     "lat": "29.645255",
     "lon": "-95.277308",
-    "model": "USA"
+    "model": "USA",
+    "wunderground_api": "KHOU:9:US",
+    "secondary_model": "HRRR"
   }
 }

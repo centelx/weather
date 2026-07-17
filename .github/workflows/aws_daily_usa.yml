@@ -1,0 +1,83 @@
+name: Codzienne pobieranie danych AWS (USA)
+
+on:
+  schedule:
+    # Uruchom codziennie o 10:00 UTC (gdy wszystkie modele z poprzedniego dnia na pewno się już przetworzyły)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Możliwość odpalenia ręcznego przyciskiem
+
+jobs:
+  setup-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      cities: ${{ steps.set-cities.outputs.cities }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Odczyt miast z cities_config.json
+        id: set-cities
+        run: |
+          CITIES=$(jq -c 'to_entries | map(select(.value.secondary_model == "HRRR" and .value.lat != "" and .value.lon != "")) | map(.key)' polymarket_all_data/cities_config.json)
+          echo "cities=${CITIES}" >> $GITHUB_OUTPUT
+
+  fetch-data:
+    needs: setup-matrix
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false # Pozwala innym miastom dokończyć nawet jeśli jedno wyrzuci błąd
+      matrix:
+        city: ${{ fromJson(needs.setup-matrix.outputs.cities) }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install ecmwflibs cfgrib xarray # w razie gdyby ich nie było w requirements
+          
+      - name: Pobieranie danych AWS dla miasta ${{ matrix.city }}
+        run: python -u data_aws/fetch_aws_usa.py --city ${{ matrix.city }}
+        
+      - name: Upload Artifact (CSV)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: aws-data-${{ matrix.city }}
+          path: data_aws/data/features_${{ matrix.city }}_*.csv
+          if-no-files-found: ignore
+
+  commit-data:
+    needs: fetch-data
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        
+      - name: Pobranie wszystkich nowych CSV ze schowka (Artifacts)
+        uses: actions/download-artifact@v4
+        with:
+          path: aws_datasets_artifacts
+          pattern: aws-data-*
+          merge-multiple: true
+          
+      - name: Nadpisanie oryginalnych plików CSV
+        run: |
+          mkdir -p data_aws/data
+          cp -r aws_datasets_artifacts/* data_aws/data/ || true
+          
+      - name: Commit & Push to Github
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data_aws/data/
+          git commit -m "Automatyczna aktualizacja modeli AWS (GFS/HRRR)" || echo "Brak zmian do wypchnięcia (dane były aktualne)"
+          git push

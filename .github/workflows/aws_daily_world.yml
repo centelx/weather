@@ -1,10 +1,9 @@
-name: Codzienne pobieranie danych AWS (X)
+name: Codzienne pobieranie danych AWS (Świat)
 
 on:
   schedule:
-    # Uruchom codziennie o 10:00 UTC (gdy wszystkie modele z poprzedniego dnia na pewno się już przetworzyły)
-    - cron: '0 10 * * *'
-  workflow_dispatch: # Możliwość odpalenia ręcznego przyciskiem
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   setup-matrix:
@@ -17,14 +16,15 @@ jobs:
       - name: Odczyt miast z cities_config.json
         id: set-cities
         run: |
-          CITIES=$(jq -c 'to_entries | map(select(.value.model != "" and .value.lat != "" and .value.lon != "")) | map(.key)' polymarket_all_data/cities_config.json)
+          CITIES=$(jq -c 'to_entries | map(select(.value.secondary_model == "ICON-GLOBAL" and .value.lat != "" and .value.lon != "")) | map(.key)' polymarket_all_data/cities_config.json)
           echo "cities=${CITIES}" >> $GITHUB_OUTPUT
 
   fetch-data:
     needs: setup-matrix
     runs-on: ubuntu-latest
+    timeout-minutes: 345
     strategy:
-      fail-fast: false # Pozwala innym miastom dokończyć nawet jeśli jedno wyrzuci błąd
+      fail-fast: false
       matrix:
         city: ${{ fromJson(needs.setup-matrix.outputs.cities) }}
     steps:
@@ -40,16 +40,15 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install ecmwflibs cfgrib xarray # w razie gdyby ich nie było w requirements
           
       - name: Pobieranie danych AWS dla miasta ${{ matrix.city }}
-        run: python -u data_aws/fetch_aws_single_city.py --city ${{ matrix.city }}
+        run: python -u data_aws/fetch_aws_world.py --city ${{ matrix.city }}
         
       - name: Upload Artifact (CSV)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: aws-data-${{ matrix.city }}
+          name: aws-data-world-${{ matrix.city }}
           path: data_aws/data/features_${{ matrix.city }}_*.csv
           if-no-files-found: ignore
 
@@ -65,7 +64,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: aws_datasets_artifacts
-          pattern: aws-data-*
+          pattern: aws-data-world-*
           merge-multiple: true
           
       - name: Nadpisanie oryginalnych plików CSV
@@ -78,5 +77,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f data_aws/data/
-          git commit -m "Automatyczna aktualizacja modeli AWS (GFS/HRRR)" || echo "Brak zmian do wypchnięcia (dane były aktualne)"
+          git commit -m "Automatyczna aktualizacja modeli (Świat)" || echo "Brak zmian do wypchnięcia"
           git push

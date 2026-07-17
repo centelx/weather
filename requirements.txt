@@ -4,3 +4,8 @@ scikit-learn
 openmeteo_requests
 requests_cache
 retry_requests
+xarray
+cfgrib
+ecmwflibs
+boto3
+s3fs
