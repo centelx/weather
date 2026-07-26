@@ -1,9 +1,9 @@
 name: Codzienne pobieranie danych AWS (USA)
 
 on:
-  schedule:
-    # Uruchom codziennie o 10:00 UTC (gdy wszystkie modele z poprzedniego dnia na pewno się już przetworzyły)
-    - cron: '0 */6 * * *'
+  # schedule:
+  #   # Uruchom codziennie o 10:00 UTC (gdy wszystkie modele z poprzedniego dnia na pewno się już przetworzyły)
+  #   - cron: '0 */6 * * *'
   workflow_dispatch: # Możliwość odpalenia ręcznego przyciskiem
 
 jobs:
